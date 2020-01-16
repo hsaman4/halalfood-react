@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    /* padding: 1%; */
+    /* margin: 0;  */
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    
+}
+
+.site-name {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid red; */
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+    font-size: 22px;
+}
+.site-name h2{
+    margin-left: 0;
+}
+.header-img {
+    background-image: url('../images/halal.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 3em;
+    height: 2em;
+    /* border: 1px solid green; */
+    transform: rotate(270deg);
+    margin-top: 10%;
+}
+.links{
+    font-family: 'Yeseva One', cursive;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: 18px;
+}
+
+.links a {
+    color: black;
+}

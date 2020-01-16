@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Baskervville&display=swap');
+.hero {
+    /* border: 1px solid red; */
+    height: 81vh;
+    
+
+}
+.hero img  {
+    filter: blur(2px)
+}
+.body-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    word-spacing: 10px;
+   
+}

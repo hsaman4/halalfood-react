@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum&display=swap');
+.restaurant {
+    border: 1px solid purple;
+}
+.restaurant h1 {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+.rest-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid orange;
+  
+    
+}
+.rest {
+    border: 1px solid green;
+    width: 30%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#EAFDFF;
+    color: black;
+    border-radius: 10px;
+}
+.rest img {
+    vertical-align: baseline;
+    height: 320px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+
+.rest button {
+    border: 1px solid red;
+    height: 50%;
+    width: 50%;
+}
+
+.rest-name {
+    /* border: 2px solid purple; */
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.rest-description {
+    border: 1px solid blue;
+    width: 80%;
+    
+}
