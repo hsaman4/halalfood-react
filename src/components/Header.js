@@ -41,7 +41,6 @@ export default Header
 {/* <div className="routes">
                 <Switch>
                     <Route path to='/' exact component={Home} />
-                    <Route path to='/modal' component={Modal} />
                     {/* <Route path to='/findRestaurants' component={Restaurant}/>
                     <Route path to='/what' component={What} /> */}
 {/* >                </Switch>
