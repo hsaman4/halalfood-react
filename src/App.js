@@ -6,7 +6,7 @@ import Restaurant from './components/Restaurant'
 import What from './components/What'
 import axios from 'axios'
 import AddRestaurant from './components/AddRestaurants';
-import Reviews from './components/Reviews'
+import Footer from './components/Footer'
 
 class App extends React.Component {
   constructor(props) {
@@ -17,10 +17,6 @@ class App extends React.Component {
       description: '',
       img: '',
       link: '',
-      // reviews: [],
-      // Username: '',
-      // comment: '',
-      // rating: '',
     }
   
   }
@@ -101,7 +97,7 @@ class App extends React.Component {
          comment={this.state.comment}
          rating={this.state.rating}
          /> */}
-        <What />
+        
         <AddRestaurant
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}
@@ -110,6 +106,8 @@ class App extends React.Component {
           img={this.state.img}
           link={this.state.link}
         />
+        <What />
+        <Footer />
       </>
 
     )

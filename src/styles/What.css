@@ -1,0 +1,12 @@
+.whatdiv {
+    border-top: 1px solid #EAFDFF;
+    text-align: center
+}
+
+.list {
+    /* border: 1px solid yellow; */
+    text-align: left;
+    width: 50%;
+    margin-left: 28%;
+}
+

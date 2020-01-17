@@ -42,6 +42,7 @@
     justify-content: space-evenly;
     width: 30%;
     font-size: 18px;
+    margin-right: 0;
 }
 
 .links a {
