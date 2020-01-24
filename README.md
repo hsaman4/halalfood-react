@@ -1,3 +1,16 @@
+# Halal-Foodies
+## Demo: 
+
+![](halal-food.gif)
+
+## What does the project do:
+A list of resturants that have halal food. This webiste has full CRUD functionality. You can add, delete and update restaurants. 
+
+## Halal-Foodies was created using:
+* Rails back-end 
+* React.js front-end
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
